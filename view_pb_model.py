@@ -1,3 +1,4 @@
+# tensorboard --logdir="log/" --host=10.27.0.193 --port=6001
 import tensorflow as tf
 from tensorflow.python.platform import gfile
 model = 'best_model_cnn_lstm.pb'
