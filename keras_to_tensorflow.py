@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# python keras_to_tensorflow.py -input_model_file trans_model.h5 -output_model_file trans_model.pb  -graph_def=True
+# python keras_to_tensorflow.py -input_model_file best_model_cnn_lstm.h5 -output_model_file best_model_cnn_lstm.pb  -graph_def=True
 
 # In[ ]:
 

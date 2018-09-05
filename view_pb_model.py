@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow.python.platform import gfile
-model = 'trans_model.pb'
+model = 'best_model_cnn_lstm.pb'
 graph = tf.get_default_graph()
 graph_def = graph.as_graph_def()
 graph_def.ParseFromString(gfile.FastGFile(model, 'rb').read())
